@@ -5,9 +5,9 @@ int main() {
     stdio_init_all();
     while (true) {
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
-        sleep_ms(2500);
+        sleep_ms(500);
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
-        sleep_ms(2500);
+        sleep_ms(500);
     }
     return 0;
 }
